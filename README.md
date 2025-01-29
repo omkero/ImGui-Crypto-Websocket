@@ -31,7 +31,9 @@ The tool connects to Binance's WebSocket API to stream real-time price data for 
 Clone the repository.
 
 `git clone https://github.com/omarker09/ImGui-Crypto-Websocket.git`
+
 `cd ImGui-Crypto-Websocket`
+
 `open realtime_crypto_websocket.sln`
 
 Build the project using Visual Studio build system.
