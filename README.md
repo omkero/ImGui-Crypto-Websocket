@@ -26,3 +26,20 @@ The tool connects to Binance's WebSocket API to stream real-time price data for 
 - [Dear ImGui](https://github.com/ocornut/imgui) for the GUI
 - [Asio](https://think-async.com/Asio/) (standalone)
 - [Websocketpp](https://github.com/zaphoyd/websocketpp) for realtime-fetching
+
+## Usage
+Clone the repository.
+
+`git clone https://github.com/omarker09/ImGui-Crypto-Websocket.git`
+`cd ImGui-Crypto-Websocket`
+`open realtime_crypto_websocket.sln`
+
+Build the project using Visual Studio build system.
+
+Run the executable to launch the GUI and start tracking crypto prices.
+
+## End
+
+Feel free to customize this description further to match your project’s specifics!
+
+- [@octokatherine](https://www.github.com/octokatherine)
