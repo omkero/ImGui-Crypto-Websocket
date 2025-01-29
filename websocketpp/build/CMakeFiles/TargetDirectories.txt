@@ -1,0 +1,4 @@
+C:/Users/zurd/Desktop/websocketpp/build/CMakeFiles/INSTALL.dir
+C:/Users/zurd/Desktop/websocketpp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zurd/Desktop/websocketpp/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/zurd/Desktop/websocketpp/build/websocketpp/CMakeFiles/INSTALL.dir

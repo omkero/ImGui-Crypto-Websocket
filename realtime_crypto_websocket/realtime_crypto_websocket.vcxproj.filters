@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="binance_web_socket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="custom_ui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binance_web_socket.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_ui.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3_loader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_style.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inter_font.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{f07567f2-7e49-42aa-9b09-fc91f83717a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{0d050bd3-fc62-4ae6-bc6a-b6dd9370085d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

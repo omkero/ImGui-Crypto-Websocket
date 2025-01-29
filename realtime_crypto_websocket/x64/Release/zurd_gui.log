@@ -1,0 +1,23 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\zurd\Desktop\c++ projects\zurd_gui\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\websocketpp\websocketpp\frame.hpp(834,13): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\websocketpp\websocketpp\common\md5.hpp(367,29): warning C4267: '+=': conversion from 'size_t' to 'websocketpp::md5::md5_word_t', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\websocketpp\websocketpp\sha1\sha1.hpp(176,24): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\zurd\Desktop\imgui_projects\zurd_gui\main.cpp(150,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zurd\Desktop\imgui_projects\zurd_gui\main.cpp(150,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  1 of 10390 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    42 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  zurd_gui.vcxproj -> C:\Users\zurd\Desktop\imgui_projects\x64\Release\zurd_gui.exe

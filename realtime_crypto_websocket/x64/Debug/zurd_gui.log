@@ -1,0 +1,39 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\zurd\Desktop\c++ projects\zurd_gui\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\websocketpp\websocketpp\frame.hpp(834,13): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\websocketpp\websocketpp\common\md5.hpp(367,29): warning C4267: '+=': conversion from 'size_t' to 'websocketpp::md5::md5_word_t', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\websocketpp\websocketpp\sha1\sha1.hpp(176,24): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\zurd_gui\main.cpp(138,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\zurd_gui\main.cpp(138,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+binance_web_socket.obj : error LNK2019: unresolved external symbol __imp__invalid_parameter referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::operator+<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)" (??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__invalid_parameter
+binance_web_socket.obj : error LNK2019: unresolved external symbol __imp__calloc_dbg referenced in function "char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__calloc_dbg
+binance_web_socket.obj : error LNK2019: unresolved external symbol __imp__CrtDbgReport referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::operator+<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)" (??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_CreateBitmap referenced in function createIcon
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_CreateRectRgn referenced in function updateFramebufferTransparency
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_DeleteObject referenced in function createIcon
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_CreateDIBSection referenced in function createIcon
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp_CreateDCW referenced in function _glfwGetGammaRampWin32
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp_DeleteDC referenced in function _glfwGetGammaRampWin32
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp_GetDeviceCaps referenced in function _glfwGetHMONITORContentScaleWin32
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp_GetDeviceGammaRamp referenced in function _glfwGetGammaRampWin32
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp_SetDeviceGammaRamp referenced in function _glfwSetGammaRampWin32
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp_ChoosePixelFormat referenced in function _glfwInitWGL
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp_DescribePixelFormat referenced in function _glfwCreateContextWGL
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp_SetPixelFormat referenced in function _glfwCreateContextWGL
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp_SwapBuffers referenced in function swapBuffersWGL
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp__free_dbg referenced in function "public: static void __cdecl std::_Fac_node::operator delete(void *)" (??3_Fac_node@std@@SAXPEAX@Z)
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp__malloc_dbg referenced in function "public: static void * __cdecl std::_Fac_node::operator new(unsigned __int64)" (??2_Fac_node@std@@SAPEAX_K@Z)
+C:\Users\zurd\Desktop\c++ projects\zurd_gui\x64\Debug\zurd_gui.exe : fatal error LNK1120: 18 unresolved externals
