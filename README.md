@@ -15,7 +15,7 @@ A lightweight tool to fetch and display real-time cryptocurrency prices from the
 - Real-Time Updates: Fetches live cryptocurrency prices directly from Binance via WebSocket.
 - Simple GUI: Clean and user-friendly interface using ImGui.
 - Customizable: Easily add or remove cryptocurrencies to track by creating new instance of BinanceWebSocket thread.
--  Lightweight: Minimalistic design with efficient performance.
+- Lightweight: Minimalistic design with efficient performance.
 
 ## How It Works
 The tool connects to Binance's WebSocket API to stream real-time price data for selected cryptocurrencies. The data is displayed in a straightforward GUI, making it easy to monitor price changes.
@@ -44,4 +44,4 @@ Run the executable to launch the GUI and start tracking crypto prices.
 
 Feel free to customize this description further to match your project’s specifics!
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@omarker09](https://github.com/omarker09) 
