@@ -6,6 +6,8 @@
 
 ![rgr](https://github.com/user-attachments/assets/c08f0e92-c828-4980-8336-c28b55ae0a9d)
 
+![cmdr](https://github.com/user-attachments/assets/7f0aac49-af6f-4a11-af7e-b1ca2184d79a)
+
 # Real-Time Crypto Price Tracker!
 
 A lightweight tool to fetch and display real-time cryptocurrency prices from the Binance API using WebSocket. Built with a simple and intuitive GUI powered by Dear ImGui.
