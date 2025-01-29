@@ -45,6 +45,6 @@ Run the executable to launch the GUI and start tracking crypto prices.
 
 ## End
 
-Feel free to customize this description further to match your project’s specifics!
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the tool.
 
 - [@omarker09](https://github.com/omarker09) 
