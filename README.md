@@ -28,6 +28,7 @@ The tool connects to Binance's WebSocket API to stream real-time price data for 
 - [Dear ImGui](https://github.com/ocornut/imgui) for the GUI
 - [Asio](https://think-async.com/Asio/) (standalone)
 - [Websocketpp](https://github.com/zaphoyd/websocketpp) for realtime-fetching
+- [openssl](https://github.com/openssl/openssl) for secure connection to wss server
 
 ## Usage
 Clone the repository.
