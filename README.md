@@ -25,6 +25,7 @@ The tool connects to Binance's WebSocket API to stream real-time price data for 
 ## Requirements
 
 - C++ compiler (Visual Studio supporting C++11 or later)
+- Binance websocket API
 - [Dear ImGui](https://github.com/ocornut/imgui) for the GUI
 - [Asio](https://think-async.com/Asio/) (standalone)
 - [Websocketpp](https://github.com/zaphoyd/websocketpp) for realtime-fetching
