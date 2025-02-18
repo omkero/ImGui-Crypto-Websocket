@@ -1,9 +1,5 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
 
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
 ![rgr](https://github.com/user-attachments/assets/c08f0e92-c828-4980-8336-c28b55ae0a9d)
 
 ![cmdr](https://github.com/user-attachments/assets/7f0aac49-af6f-4a11-af7e-b1ca2184d79a)
