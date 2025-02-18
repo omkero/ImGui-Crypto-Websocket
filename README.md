@@ -40,7 +40,7 @@ Clone the repository.
 
 `open realtime_crypto_websocket.sln`
 
-`and make sure to change Solution configuration to Release not Debug`
+`make sure to change Solution configuration to Release not Debug`
 
 Build the project using Visual Studio build system.
 
