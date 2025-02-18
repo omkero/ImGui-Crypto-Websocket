@@ -44,7 +44,7 @@ Clone the repository.
 
 Build the project using Visual Studio build system.
 
-Run the executable to launch the GUI and start tracking crypto prices.
+Run the executable to launch the App.
 
 ## End
 
