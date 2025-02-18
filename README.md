@@ -44,7 +44,7 @@ Clone the repository.
 
 Build the project using Visual Studio build system.
 
-Run the executable to launch the App.
+click Run and Enjoy.
 
 ## End
 
