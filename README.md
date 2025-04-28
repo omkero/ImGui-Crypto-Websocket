@@ -26,7 +26,7 @@ The tool connects to Binance's WebSocket API to stream real-time price data for 
 - [Asio](https://think-async.com/Asio/) (Asio-standalone)
 - [Websocketpp](https://github.com/zaphoyd/websocketpp) for realtime-fetching
 - [openssl](https://github.com/openssl/openssl) for secure connection to wss server
-- [glfw](https://github.com/glfw/glfw) for window wrapper
+- [glfw](https://github.com/glfw/glfw) create and manage window and OpenGL and handle joystick, keyboard and mouse input
 - [glad](https://github.com/Dav1dde/glad) to manages function pointers for OpenGL
   
 ## Usage
