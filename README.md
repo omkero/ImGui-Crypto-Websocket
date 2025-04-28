@@ -26,7 +26,8 @@ The tool connects to Binance's WebSocket API to stream real-time price data for 
 - [Asio](https://think-async.com/Asio/) (standalone)
 - [Websocketpp](https://github.com/zaphoyd/websocketpp) for realtime-fetching
 - [openssl](https://github.com/openssl/openssl) for secure connection to wss server
-
+- [glfw3 & glad](https://github.com/openssl/openssl) for window and graphics
+  
 ## Usage
 Clone the repository.
 
