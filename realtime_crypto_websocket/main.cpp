@@ -6,7 +6,6 @@
 #include <iostream>
 #include "inter_font.h" // Include your font data header
 #include <string>
-#include "custom_ui.h"
 #include "binance_web_socket.h"
 #include "imgui_style.h"
 #include <chrono>
@@ -94,7 +93,6 @@ int main()
     // Initialize ImGui GLFW and OpenGL bindings
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init(glsl_version);
-    CustomUI ui;
 
     BinanceWebSocket client("price");
     client.connect("wss://stream.binance.com:9443/ws/xrpusdt@miniTicker");
@@ -136,14 +134,6 @@ int main()
 
         glfwGetWindowSize(window, &responsive_win_width, &responsive_win_height);
 
-
-        static float f = 0.0f;
-        static int counter = 0;
-        static char text_inp_buf1[999999] = ""; // 256 is the buffer size, adjust as needed
-        static char text_inp_buf2[999999] = ""; // 256 is the buffer size, adjust as needed
-
-        char message_imp[256] = "";
-
         bool isDemo = false;
         ImGui::SetNextWindowPos(ImVec2(0, 0));
         ImGui::SetNextWindowSize(ImVec2(responsive_win_width, responsive_win_height));
@@ -153,8 +143,6 @@ int main()
         {
             ui.MenuBar(window);
         }
-
-        //ui.LoginPanel(window, 265, 400, true);
 
         
         ImGui::Text("Bitcoin: ");
