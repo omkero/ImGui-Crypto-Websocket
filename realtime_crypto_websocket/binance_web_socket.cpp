@@ -22,7 +22,6 @@ Ctx on_tls_init() {
     return ctx;
 }
 
-// the default constructor
 BinanceWebSocket::BinanceWebSocket(std::string type) : type(type) {
     ws_client.init_asio();
 
@@ -72,7 +71,6 @@ void BinanceWebSocket::on_connect(websocketpp::connection_hdl hdl) {
 }
 
 void BinanceWebSocket::on_message(websocketpp::connection_hdl hdl, client::message_ptr mesage) {
-    // std::cout << "Received message: " << mesage->get_payload() << std::endl;
     nlohmann::json toJson = nlohmann::json::parse(mesage->get_payload());
 
     if (std::strcmp(type.c_str(), "price") == 0) {
@@ -83,7 +81,7 @@ void BinanceWebSocket::on_message(websocketpp::connection_hdl hdl, client::messa
             if (trades.size() >= 40) {
                 trades.pop_back();
             }
-            // Ensure numeric fields are converted to strings
+            //  numeric fields must be converted to strings
             trades.insert(trades.begin(), {
                 std::to_string(toJson["T"].get<long long>()), // Convert timestamp to string
                 toJson["s"].get<std::string>(),             
